@@ -84,23 +84,18 @@ body {
   background-color: #f6f6f6;
 }
 
-.section-presentation__link {
+.section-presentation__link-button {
   display: block;
   text-decoration: none;
-  color: transparent;
-}
-
-.section-presentation__link__button {
   border-radius: 30px;
   background-image: linear-gradient(#ff79da, #9356dc);
   color: #fff;
-  border: none;
   box-shadow: 1px 1px 10px #7e7e7e;
   padding: 20px;
   cursor: pointer;
 }
 
-.section-presentation__link__button:hover {
+.section-presentation__link-button:hover {
   box-shadow: 3px 3px 12px #7e7e7e;
 }
 
@@ -121,13 +116,7 @@ body {
   align-items: baseline;
 }
 
-.section-functioning__container__item__link {
-  display: contents;
-  text-decoration: none;
-  color: transparent;
-}
-
-.section-functioning__container__item__link__bubble {
+.section-functioning__container__item__bubble {
   position: relative;
   left: 20px;
   padding: 5px;
@@ -140,37 +129,39 @@ body {
   color: #fff;
 }
 
-.section-functioning__container__item__link__button {
+.section-functioning__container__item__link-button {
+  display: block;
+  text-decoration: none;
   background-color: #f6f6f6;
   box-shadow: 5px 5px 10px #eaeaea;
-  width: 290px;
+  width: 250px;
   margin-bottom: 20px;
   padding: 20px;
   border-radius: 20px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  border: none;
   font-weight: bold;
-  font-size: 16px;
   cursor: pointer;
+  color: #000;
 }
 
-.section-functioning__container__item__link__button .section-functioning__container__item__link__button__icon-button {
+.section-functioning__container__item__link-button__icon-button {
   margin-left: 16px;
   margin-right: 16px;
   color: #7e7e7e;
 }
 
-.section-functioning__container__item__link__button:hover {
+.section-functioning__container__item__link-button:hover {
   background-color: #f5edff;
   box-shadow: 10px 10px 20px #eaeaea;
 }
 
-.section-functioning__container__item__link ~ :hover .section-functioning__container__item__link__button__icon-button {
+.section-functioning__container__item :hover .section-functioning__container__item__link-button__icon-button {
   color: #9356dc;
 }
 
+/* section-restaurants */
 .section-restaurants {
   padding: 20px;
   background-color: #f6f6f6;
