@@ -209,11 +209,6 @@ body {
   margin-top: 5px;
 }
 
-.section-restaurants__container__link__card__container__button {
-  border: none;
-  background-color: transparent;
-}
-
 .section-restaurants__container__link__card__container__button__heart-icon-regular {
   font-size: 20px;
 }
