@@ -1,0 +1,28 @@
+@media screen and (min-width: 600px) {
+    /* footer */
+
+    .footer__heading {
+        text-align: center;
+    }
+
+    .footer__nav {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer__nav > *:nth-child(1) {
+        margin-right: 30px;
+    }
+
+    .footer__nav > *:nth-child(2) {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .footer__nav > *:nth-child(3) {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .footer__nav > *:nth-child(4) {
+        margin-left: 30px;
+    }
+}

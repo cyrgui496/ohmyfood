@@ -1,0 +1,14 @@
+@media screen and (min-width: 600px) {
+  /* header */
+  .header {
+    justify-content: center;
+  }
+  .logo__header {
+    width: 25%;
+  }
+  .logo__header img {
+    width: 75%;
+  }
+}
+
+/*# sourceMappingURL=header-tablet.css.map */

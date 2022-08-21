@@ -1,0 +1,36 @@
+@import "var.scss";
+
+/* footer */
+.footer {
+    color: $white;
+    background-color: $mediumBlack;
+    padding: 20px;
+}
+
+.footer__heading {
+    font-family: $shrikhand, $cursive;
+}
+
+.footer__nav a {
+    text-decoration: none;
+    color: $white;
+    display: block;
+}
+
+.footer__nav a:hover {
+    text-decoration: underline;
+}
+
+.footer__nav__container {
+    display: flex;
+    align-items: center;
+}
+
+.footer__nav__container__icon {
+    width: 16px;
+    height: 16px;
+}
+
+.footer__nav__container__link {
+    margin-left: 10px;
+}

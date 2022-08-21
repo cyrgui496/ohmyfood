@@ -1,0 +1,255 @@
+/* color */
+/* font */
+body {
+  margin: 0px;
+  font-family: "Roboto", sans-serif;
+}
+
+/* page loader */
+.page-loader {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  animation-name: page-loader;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes page-loader {
+  0% {
+    background-color: #fff;
+    z-index: 1;
+  }
+  65% {
+    background-color: #fff;
+    z-index: 1;
+  }
+  100% {
+    background-color: transparent;
+    z-index: -1;
+  }
+}
+.page-loader__loader {
+  border: 16px solid #ff79da;
+  border-radius: 50%;
+  border-top: 16px solid #9356dc;
+  border-bottom: 16px solid #9356dc;
+  width: 120px;
+  height: 120px;
+  animation-name: loader;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes loader {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+    opacity: 0;
+  }
+}
+/* main */
+/* search bar */
+.form {
+  text-align: center;
+  background-color: #eaeaea;
+  padding: 10px;
+}
+
+.form input[type=search] {
+  border: none;
+  background-color: #eaeaea;
+  text-align: center;
+  width: 140px;
+}
+.form input[type=search]::placeholder {
+  font-weight: bold;
+  color: #000;
+}
+
+/* section section-presentation */
+.section-presentation {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  background-color: #f6f6f6;
+}
+
+.section-presentation__link {
+  display: block;
+  text-decoration: none;
+  color: transparent;
+}
+
+.section-presentation__link__button {
+  border-radius: 30px;
+  background-image: linear-gradient(#ff79da, #9356dc);
+  color: #fff;
+  border: none;
+  box-shadow: 1px 1px 10px #7e7e7e;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.section-presentation__link__button:hover {
+  box-shadow: 3px 3px 12px #7e7e7e;
+}
+
+/* section functionning */
+.section-functioning {
+  padding: 20px;
+}
+
+.section-functioning__container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-functioning__container__item {
+  display: inline-flex;
+  align-items: baseline;
+}
+
+.section-functioning__container__item__link {
+  display: contents;
+  text-decoration: none;
+  color: transparent;
+}
+
+.section-functioning__container__item__link__bubble {
+  position: relative;
+  left: 20px;
+  padding: 5px;
+  background-color: #9356dc;
+  border-radius: 50px;
+  width: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.section-functioning__container__item__link__button {
+  background-color: #f6f6f6;
+  box-shadow: 5px 5px 10px #eaeaea;
+  width: 290px;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border: none;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.section-functioning__container__item__link__button .section-functioning__container__item__link__button__icon-button {
+  margin-left: 16px;
+  margin-right: 16px;
+  color: #7e7e7e;
+}
+
+.section-functioning__container__item__link__button:hover {
+  background-color: #f5edff;
+  box-shadow: 10px 10px 20px #eaeaea;
+}
+
+.section-functioning__container__item__link ~ :hover .section-functioning__container__item__link__button__icon-button {
+  color: #9356dc;
+}
+
+.section-restaurants {
+  padding: 20px;
+  background-color: #f6f6f6;
+}
+
+.section-restaurants__container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.section-restaurants__container__link {
+  display: block;
+  text-decoration: none;
+  color: #000;
+}
+
+.section-restaurants__container__link__card {
+  background-color: #fff;
+  box-shadow: 5px 5px 10px #eaeaea;
+  border-radius: 10px;
+  margin: 0px;
+  margin-bottom: 20px;
+}
+
+.section-restaurants__container__link__card img {
+  width: 100%;
+  height: 150px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  object-fit: cover;
+}
+
+.section-restaurants__container__link__card__container {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-restaurants__container__link__card__container__text .section-restaurants__container__link__card__container__text__heading {
+  margin: 0px;
+}
+.section-restaurants__container__link__card__container__text .section-restaurants__container__link__card__container__text__place {
+  margin-top: 5px;
+}
+
+.section-restaurants__container__link__card__container__button {
+  border: none;
+  background-color: transparent;
+}
+
+.section-restaurants__container__link__card__container__button__heart-icon-regular {
+  font-size: 20px;
+}
+
+.section-restaurants__container__link__card__container__button__heart-icon-solid {
+  font-size: 20px;
+  display: none;
+}
+
+.section-restaurants__container__link__card__container :hover .section-restaurants__container__link__card__container__button__heart-icon-regular {
+  display: none;
+}
+.section-restaurants__container__link__card__container :hover .section-restaurants__container__link__card__container__button__heart-icon-solid {
+  display: block;
+  cursor: pointer;
+  color: #9356dc;
+  animation-name: fadeIn;
+  animation-duration: 1s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0.65;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */

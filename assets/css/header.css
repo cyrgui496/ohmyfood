@@ -1,0 +1,22 @@
+/* header */ /* color */
+/* font */
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  box-shadow: 0px 1px 10px #7e7e7e;
+  margin-bottom: 1px;
+}
+
+.logo__header {
+  text-align: center;
+  width: 75%;
+}
+
+.logo__header img {
+  width: 75%;
+  height: auto;
+}
+
+/*# sourceMappingURL=header.css.map */

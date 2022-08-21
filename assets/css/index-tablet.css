@@ -1,0 +1,8 @@
+@media screen and (min-width: 600px) {
+  /* .restaurants */
+  .section-restaurants__container__link__card img {
+    height: 250px;
+  }
+}
+
+/*# sourceMappingURL=index-tablet.css.map */
