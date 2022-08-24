@@ -194,6 +194,7 @@ body {
     border-radius: 10px;
     margin: 0px;
     margin-bottom: 20px;
+    position: relative;
 }
 
 .section-restaurants__container__link__card {
@@ -204,6 +205,21 @@ body {
         border-top-right-radius: 10px;
         object-fit: cover;
     }
+}
+
+.section-restaurants__container__link__card__tooltip {
+    background-color: $lightGreen;
+    color: $green;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 20px;
+    right: 20px;
 }
 
 .section-restaurants__container__link__card__container {
@@ -222,34 +238,38 @@ body {
 }
 
 .section-restaurants__container__link__card__container__button__heart-icon-regular {
-    font-size: 20px;
+    color: $white;
+    fill: currentColor;
+    stroke: $black;
+    stroke-width: 10px;
 }
 
-.section-restaurants__container__link__card__container__button__heart-icon-solid {
-    font-size: 20px;
-    display: none;
+.section-restaurants__container__link__card__container__button__heart-icon-regular
+    svg {
+    width: 20px;
+    height: auto;
+    vertical-align: -0.125em;
 }
 
 .section-restaurants__container__link__card__container {
     & :hover {
         .section-restaurants__container__link__card__container__button__heart-icon-regular {
-            display: none;
-        }
-        .section-restaurants__container__link__card__container__button__heart-icon-solid {
-            display: block;
             cursor: pointer;
+            stroke: $purple;
             color: $purple;
             animation-name: fadeIn;
-            animation-duration: 1s;
+            animation-duration: 2s;
         }
     }
 }
 
 @keyframes fadeIn {
     0% {
-        opacity: 0.65;
-    } // CSS properties at start
+        opacity: 0;
+        color: $pink;
+    }
     100% {
         opacity: 1;
-    } // CSS properties at end
+        color: $purple;
+    }
 }
