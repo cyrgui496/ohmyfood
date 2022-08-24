@@ -5,8 +5,6 @@
   justify-content: space-around;
   align-items: center;
   padding: 10px;
-  box-shadow: 0px 1px 10px #7e7e7e;
-  margin-bottom: 1px;
 }
 
 .logo__header {
@@ -17,6 +15,11 @@
 .logo__header img {
   width: 75%;
   height: auto;
+}
+
+.header__link {
+  text-decoration: none;
+  color: #000;
 }
 
 /*# sourceMappingURL=header.css.map */

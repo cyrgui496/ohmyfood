@@ -59,10 +59,12 @@ body {
 
 /* main */
 /* search bar */
+
 .form {
     text-align: center;
     background-color: $mediumGrey;
     padding: 10px;
+    border-top: 1px solid $darkGrey;
 }
 
 .form {
@@ -251,16 +253,12 @@ body {
     vertical-align: -0.125em;
 }
 
-.section-restaurants__container__link__card__container {
-    & :hover {
-        .section-restaurants__container__link__card__container__button__heart-icon-regular {
-            cursor: pointer;
-            stroke: $purple;
-            color: $purple;
-            animation-name: fadeIn;
-            animation-duration: 2s;
-        }
-    }
+.section-restaurants__container__link__card__container__button__heart-icon-regular:hover {
+    cursor: pointer;
+    stroke: $purple;
+    color: $purple;
+    animation-name: fadeIn;
+    animation-duration: 2s;
 }
 
 @keyframes fadeIn {

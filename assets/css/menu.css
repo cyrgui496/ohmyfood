@@ -1,0 +1,67 @@
+/* color */
+/* font */
+body {
+  margin: 0px;
+  font-family: "Roboto", sans-serif;
+}
+
+.main__section__card {
+  margin: 0;
+}
+
+.main__section__card__block-img {
+  width: 100%;
+}
+.main__section__card__block-img img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.main__section__card__container {
+  margin-top: -30px;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+  padding: 20px;
+  background-color: #f6f6f6;
+  position: relative;
+}
+
+.main__section__card__container__block-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main__section__card__container__block-heading__button__heart-icon-regular {
+  color: #fff;
+  fill: currentColor;
+  stroke: #000;
+  stroke-width: 10px;
+}
+
+.main__section__card__container__block-heading__button__heart-icon-regular svg {
+  width: 20px;
+  height: auto;
+}
+
+.main__section__card__container__block-heading__button__heart-icon-regular:hover {
+  cursor: pointer;
+  stroke: #9356dc;
+  color: #9356dc;
+  animation-name: fadeIn;
+  animation-duration: 2s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    color: #ff79da;
+  }
+  100% {
+    opacity: 1;
+    color: #9356dc;
+  }
+}
+
+/*# sourceMappingURL=menu.css.map */

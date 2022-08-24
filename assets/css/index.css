@@ -61,6 +61,7 @@ body {
   text-align: center;
   background-color: #eaeaea;
   padding: 10px;
+  border-top: 1px solid #7e7e7e;
 }
 
 .form input[type=search] {
@@ -239,7 +240,7 @@ body {
   vertical-align: -0.125em;
 }
 
-.section-restaurants__container__link__card__container :hover .section-restaurants__container__link__card__container__button__heart-icon-regular {
+.section-restaurants__container__link__card__container__button__heart-icon-regular:hover {
   cursor: pointer;
   stroke: #9356dc;
   color: #9356dc;
