@@ -81,7 +81,7 @@ body {
 }
 
 /* section section-presentation */
-.section-presentation {
+.main__section-presentation {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -90,7 +90,7 @@ body {
     background-color: $lightGrey;
 }
 
-.section-presentation__link-button {
+.main__section-presentation__link-button {
     display: block;
     text-decoration: none;
     border-radius: 30px;
@@ -101,28 +101,28 @@ body {
     cursor: pointer;
 }
 
-.section-presentation__link-button:hover {
+.main__section-presentation__link-button:hover {
     box-shadow: 3px 3px 12px $darkGrey;
 }
 
 /* section functionning */
-.section-functioning {
+.main__section-functioning {
     padding: 20px;
 }
 
-.section-functioning__container {
+.main__section-functioning__container {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
 }
 
-.section-functioning__container__item {
+.main__section-functioning__container__item {
     display: inline-flex;
     align-items: baseline;
 }
 
-.section-functioning__container__item__bubble {
+.main__section-functioning__container__item__bubble {
     position: relative;
     left: 20px;
     padding: 5px;
@@ -135,7 +135,7 @@ body {
     color: $white;
 }
 
-.section-functioning__container__item__link-button {
+.main__section-functioning__container__item__link-button {
     display: block;
     text-decoration: none;
     background-color: $lightGrey;
@@ -152,20 +152,20 @@ body {
     color: $black;
 }
 
-.section-functioning__container__item__link-button__icon-button {
+.main__section-functioning__container__item__link-button__icon-button {
     margin-left: 16px;
     margin-right: 16px;
     color: $darkGrey;
 }
 
-.section-functioning__container__item__link-button:hover {
+.main__section-functioning__container__item__link-button:hover {
     background-color: $lightPurple;
     box-shadow: 10px 10px 20px $mediumGrey;
 }
 
-.section-functioning__container__item {
+.main__section-functioning__container__item {
     & :hover {
-        .section-functioning__container__item__link-button__icon-button {
+        .main__section-functioning__container__item__link-button__icon-button {
             color: $purple;
         }
     }
@@ -173,24 +173,24 @@ body {
 
 /* section-restaurants */
 
-.section-restaurants {
+.main__section-restaurants {
     padding: 20px;
     background-color: $lightGrey;
 }
 
-.section-restaurants__container {
+.main__section-restaurants__container {
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
 
-.section-restaurants__container__link {
+.main__section-restaurants__container__link {
     display: block;
     text-decoration: none;
     color: $black;
 }
 
-.section-restaurants__container__link__card {
+.main__section-restaurants__container__link__card {
     background-color: $white;
     box-shadow: 5px 5px 10px $mediumGrey;
     border-radius: 10px;
@@ -199,7 +199,7 @@ body {
     position: relative;
 }
 
-.section-restaurants__container__link__card {
+.main__section-restaurants__container__link__card {
     img {
         width: 100%;
         height: 150px;
@@ -209,7 +209,7 @@ body {
     }
 }
 
-.section-restaurants__container__link__card__tooltip {
+.main__section-restaurants__container__link__card__tooltip {
     background-color: $lightGreen;
     color: $green;
     border-radius: 5px;
@@ -224,35 +224,36 @@ body {
     right: 20px;
 }
 
-.section-restaurants__container__link__card__container {
+.main__section-restaurants__container__link__card__container {
     padding: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.section-restaurants__container__link__card__container__text__heading {
+.main__section-restaurants__container__link__card__container__text__heading {
     margin: 0px;
 }
 
-.section-restaurants__container__link__card__container__text__place {
+.main__section-restaurants__container__link__card__container__text__place {
     margin-top: 5px;
 }
 
-.section-restaurants__container__link__card__container__button-heart-icon {
+.main__section-restaurants__container__link__card__container__button-heart-icon {
     color: $white;
     fill: currentColor;
     stroke: $black;
     stroke-width: 10px;
 }
 
-.section-restaurants__container__link__card__container__button-heart-icon svg {
+.main__section-restaurants__container__link__card__container__button-heart-icon
+    svg {
     width: 20px;
     height: auto;
     vertical-align: -0.125em;
 }
 
-.section-restaurants__container__link__card__container__button-heart-icon:hover {
+.main__section-restaurants__container__link__card__container__button-heart-icon:hover {
     cursor: pointer;
     stroke: $purple;
     color: $purple;

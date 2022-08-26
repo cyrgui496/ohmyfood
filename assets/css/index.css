@@ -76,7 +76,7 @@ body {
 }
 
 /* section section-presentation */
-.section-presentation {
+.main__section-presentation {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -85,7 +85,7 @@ body {
   background-color: #f6f6f6;
 }
 
-.section-presentation__link-button {
+.main__section-presentation__link-button {
   display: block;
   text-decoration: none;
   border-radius: 30px;
@@ -96,28 +96,28 @@ body {
   cursor: pointer;
 }
 
-.section-presentation__link-button:hover {
+.main__section-presentation__link-button:hover {
   box-shadow: 3px 3px 12px #7e7e7e;
 }
 
 /* section functionning */
-.section-functioning {
+.main__section-functioning {
   padding: 20px;
 }
 
-.section-functioning__container {
+.main__section-functioning__container {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
 }
 
-.section-functioning__container__item {
+.main__section-functioning__container__item {
   display: inline-flex;
   align-items: baseline;
 }
 
-.section-functioning__container__item__bubble {
+.main__section-functioning__container__item__bubble {
   position: relative;
   left: 20px;
   padding: 5px;
@@ -130,7 +130,7 @@ body {
   color: #fff;
 }
 
-.section-functioning__container__item__link-button {
+.main__section-functioning__container__item__link-button {
   display: block;
   text-decoration: none;
   background-color: #f6f6f6;
@@ -147,40 +147,40 @@ body {
   color: #000;
 }
 
-.section-functioning__container__item__link-button__icon-button {
+.main__section-functioning__container__item__link-button__icon-button {
   margin-left: 16px;
   margin-right: 16px;
   color: #7e7e7e;
 }
 
-.section-functioning__container__item__link-button:hover {
+.main__section-functioning__container__item__link-button:hover {
   background-color: #f5edff;
   box-shadow: 10px 10px 20px #eaeaea;
 }
 
-.section-functioning__container__item :hover .section-functioning__container__item__link-button__icon-button {
+.main__section-functioning__container__item :hover .main__section-functioning__container__item__link-button__icon-button {
   color: #9356dc;
 }
 
 /* section-restaurants */
-.section-restaurants {
+.main__section-restaurants {
   padding: 20px;
   background-color: #f6f6f6;
 }
 
-.section-restaurants__container {
+.main__section-restaurants__container {
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
 
-.section-restaurants__container__link {
+.main__section-restaurants__container__link {
   display: block;
   text-decoration: none;
   color: #000;
 }
 
-.section-restaurants__container__link__card {
+.main__section-restaurants__container__link__card {
   background-color: #fff;
   box-shadow: 5px 5px 10px #eaeaea;
   border-radius: 10px;
@@ -189,7 +189,7 @@ body {
   position: relative;
 }
 
-.section-restaurants__container__link__card img {
+.main__section-restaurants__container__link__card img {
   width: 100%;
   height: 150px;
   border-top-left-radius: 10px;
@@ -197,7 +197,7 @@ body {
   object-fit: cover;
 }
 
-.section-restaurants__container__link__card__tooltip {
+.main__section-restaurants__container__link__card__tooltip {
   background-color: #99e2d0;
   color: #2ca185;
   border-radius: 5px;
@@ -212,35 +212,35 @@ body {
   right: 20px;
 }
 
-.section-restaurants__container__link__card__container {
+.main__section-restaurants__container__link__card__container {
   padding: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.section-restaurants__container__link__card__container__text__heading {
+.main__section-restaurants__container__link__card__container__text__heading {
   margin: 0px;
 }
 
-.section-restaurants__container__link__card__container__text__place {
+.main__section-restaurants__container__link__card__container__text__place {
   margin-top: 5px;
 }
 
-.section-restaurants__container__link__card__container__button-heart-icon {
+.main__section-restaurants__container__link__card__container__button-heart-icon {
   color: #fff;
   fill: currentColor;
   stroke: #000;
   stroke-width: 10px;
 }
 
-.section-restaurants__container__link__card__container__button-heart-icon svg {
+.main__section-restaurants__container__link__card__container__button-heart-icon svg {
   width: 20px;
   height: auto;
   vertical-align: -0.125em;
 }
 
-.section-restaurants__container__link__card__container__button-heart-icon:hover {
+.main__section-restaurants__container__link__card__container__button-heart-icon:hover {
   cursor: pointer;
   stroke: #9356dc;
   color: #9356dc;

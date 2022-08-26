@@ -1,38 +1,38 @@
 @media screen and (min-width: 992px) {
     /* functioning */
 
-    .section-functioning__heading {
+    .main__section-functioning__heading {
         text-align: center;
     }
 
-    .section-functioning__container {
+    .main__section-functioning__container {
         flex-direction: initial;
     }
 
     /* .restaurants */
 
-    .section-restaurants__heading {
+    .main__section-restaurants__heading {
         text-align: center;
     }
 
-    .section-restaurants__container {
+    .main__section-restaurants__container {
         flex-direction: initial;
     }
 
-    .section-restaurants__container {
-        .section-restaurants__container__link:nth-child(2) {
+    .main__section-restaurants__container {
+        .main__section-restaurants__container__link:nth-child(2) {
             margin-left: 20px;
             margin-right: 10px;
         }
     }
-    .section-restaurants__container {
-        .section-restaurants__container__link:nth-child(3) {
+    .main__section-restaurants__container {
+        .main__section-restaurants__container__link:nth-child(3) {
             margin-right: 20px;
             margin-left: 10px;
         }
     }
 
-    .section-restaurants__container__link__card {
+    .main__section-restaurants__container__link__card {
         img {
             width: 225px;
             height: 150px;
