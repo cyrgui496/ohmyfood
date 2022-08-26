@@ -9,6 +9,11 @@
 
 .footer__heading {
     font-family: $shrikhand, $cursive;
+    margin: 0;
+}
+
+.footer__nav {
+    margin-top: 20px;
 }
 
 .footer__nav a {

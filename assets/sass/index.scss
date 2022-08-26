@@ -239,21 +239,20 @@ body {
     margin-top: 5px;
 }
 
-.section-restaurants__container__link__card__container__button__heart-icon-regular {
+.section-restaurants__container__link__card__container__button-heart-icon {
     color: $white;
     fill: currentColor;
     stroke: $black;
     stroke-width: 10px;
 }
 
-.section-restaurants__container__link__card__container__button__heart-icon-regular
-    svg {
+.section-restaurants__container__link__card__container__button-heart-icon svg {
     width: 20px;
     height: auto;
     vertical-align: -0.125em;
 }
 
-.section-restaurants__container__link__card__container__button__heart-icon-regular:hover {
+.section-restaurants__container__link__card__container__button-heart-icon:hover {
     cursor: pointer;
     stroke: $purple;
     color: $purple;
