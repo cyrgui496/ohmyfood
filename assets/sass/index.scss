@@ -2,7 +2,7 @@
 
 body {
     margin: 0px;
-    font-family: $roboto, $sansSerif;
+    font-family: $generalFont1, $generalFont2;
 }
 
 /* page loader */
@@ -239,21 +239,19 @@ body {
     margin-top: 5px;
 }
 
-.main__section-restaurants__container__link__card__container__button-heart-icon {
+.main__section-restaurants__container__link__card__container__heart-icon {
     color: $white;
     fill: currentColor;
     stroke: $black;
     stroke-width: 10px;
 }
 
-.main__section-restaurants__container__link__card__container__button-heart-icon
-    svg {
+.main__section-restaurants__container__link__card__container__heart-icon svg {
     width: 20px;
-    height: auto;
-    vertical-align: -0.125em;
+    height: 16px;
 }
 
-.main__section-restaurants__container__link__card__container__button-heart-icon:hover {
+.main__section-restaurants__container__link__card__container__heart-icon:hover {
     cursor: pointer;
     stroke: $purple;
     color: $purple;
@@ -265,6 +263,14 @@ body {
     0% {
         opacity: 0;
         color: $pink;
+    }
+    33% {
+        opacity: 0.33;
+        color: $mediumPink;
+    }
+    66% {
+        opacity: 0.66;
+        color: $mediumPurple;
     }
     100% {
         opacity: 1;

@@ -2,7 +2,7 @@
 
 body {
     margin: 0px;
-    font-family: $roboto, $sansSerif;
+    font-family: $generalFont1, $generalFont2;
 }
 
 .main__section__card {
@@ -37,7 +37,7 @@ body {
     margin: 0;
 }
 
-.main__section__card__container__container-heading__button-heart-icon {
+.main__section__card__container__container-heading__heart-icon {
     color: $lightGrey;
     fill: currentColor;
     stroke: $black;
@@ -46,12 +46,12 @@ body {
     background-color: $lightGrey;
 }
 
-.main__section__card__container__container-heading__button-heart-icon svg {
+.main__section__card__container__container-heading__heart-icon svg {
     width: 20px;
-    height: auto;
+    height: 16px;
 }
 
-.main__section__card__container__container-heading__button-heart-icon:hover {
+.main__section__card__container__container-heading__heart-icon:hover {
     cursor: pointer;
     stroke: $purple;
     color: $purple;
@@ -63,6 +63,14 @@ body {
     0% {
         opacity: 0;
         color: $pink;
+    }
+    33% {
+        opacity: 0.33;
+        color: $mediumPink;
+    }
+    66% {
+        opacity: 0.66;
+        color: $mediumPurple;
     }
     100% {
         opacity: 1;
