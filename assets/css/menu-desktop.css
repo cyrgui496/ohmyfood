@@ -1,4 +1,7 @@
 @media screen and (min-width: 992px) {
+  .main__section__card__block-img img {
+    height: 350px;
+  }
   .main__section__card__container__container-menu {
     display: flex;
     justify-content: space-around;
