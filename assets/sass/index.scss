@@ -36,10 +36,10 @@ body {
 }
 
 .page-loader__loader {
-    border: 16px solid $pink;
+    border: 16px solid $secondary;
     border-radius: 50%;
-    border-top: 16px solid $purple;
-    border-bottom: 16px solid $purple;
+    border-top: 16px solid $primary;
+    border-bottom: 16px solid $primary;
     width: 120px;
     height: 120px;
     animation-name: loader;
@@ -94,7 +94,7 @@ body {
     display: block;
     text-decoration: none;
     border-radius: 30px;
-    background-image: linear-gradient($pink, $purple);
+    background-image: linear-gradient($secondary, $primary);
     color: $white;
     box-shadow: 1px 1px 10px $darkGrey;
     padding: 20px;
@@ -126,7 +126,7 @@ body {
     position: relative;
     left: 20px;
     padding: 5px;
-    background-color: $purple;
+    background-color: $primary;
     border-radius: 50px;
     width: 20px;
     display: flex;
@@ -159,14 +159,14 @@ body {
 }
 
 .main__section-functioning__container__item__link-button:hover {
-    background-color: $lightPurple;
+    background-color: $lightPrimary;
     box-shadow: 10px 10px 20px $mediumGrey;
 }
 
 .main__section-functioning__container__item {
     & :hover {
         .main__section-functioning__container__item__link-button__icon-button {
-            color: $purple;
+            color: $primary;
         }
     }
 }
@@ -210,8 +210,8 @@ body {
 }
 
 .main__section-restaurants__container__link__card__tooltip {
-    background-color: $lightGreen;
-    color: $green;
+    background-color: $tertiary;
+    color: $mediumTertiary;
     border-radius: 5px;
     width: 100px;
     height: 30px;
@@ -253,8 +253,8 @@ body {
 
 .main__section-restaurants__container__link__card__container__heart-icon:hover {
     cursor: pointer;
-    stroke: $purple;
-    color: $purple;
+    stroke: $primary;
+    color: $primary;
     animation-name: fadeIn;
     animation-duration: 2s;
 }
@@ -262,18 +262,18 @@ body {
 @keyframes fadeIn {
     0% {
         opacity: 0;
-        color: $pink;
+        color: $secondary;
     }
     33% {
         opacity: 0.33;
-        color: $mediumPink;
+        color: $mediumSecondary;
     }
     66% {
         opacity: 0.66;
-        color: $mediumPurple;
+        color: $mediumPrimary;
     }
     100% {
         opacity: 1;
-        color: $purple;
+        color: $primary;
     }
 }

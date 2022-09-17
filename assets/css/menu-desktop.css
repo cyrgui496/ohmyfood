@@ -1,4 +1,5 @@
 @media screen and (min-width: 992px) {
+  /* section */
   .main__section__card__block-img img {
     height: 350px;
   }

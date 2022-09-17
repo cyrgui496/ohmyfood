@@ -5,6 +5,8 @@ body {
     font-family: $generalFont1, $generalFont2;
 }
 
+/* section */
+
 .main__section__card {
     margin: 0;
 }
@@ -53,8 +55,8 @@ body {
 
 .main__section__card__container__container-heading__heart-icon:hover {
     cursor: pointer;
-    stroke: $purple;
-    color: $purple;
+    stroke: $primary;
+    color: $primary;
     animation-name: fadeIn;
     animation-duration: 2s;
 }
@@ -62,19 +64,19 @@ body {
 @keyframes fadeIn {
     0% {
         opacity: 0;
-        color: $pink;
+        color: $secondary;
     }
     33% {
         opacity: 0.33;
-        color: $mediumPink;
+        color: $mediumSecondary;
     }
     66% {
         opacity: 0.66;
-        color: $mediumPurple;
+        color: $mediumPrimary;
     }
     100% {
         opacity: 1;
-        color: $purple;
+        color: $primary;
     }
 }
 
@@ -140,6 +142,23 @@ body {
     }
 }
 
+.main__section__card__container__container-menu__item__container:nth-child(5) {
+    animation-name: gradualOnset4;
+    animation-duration: 2.64s;
+}
+
+@keyframes gradualOnset4 {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
 .main__section__card__container__container-menu__item__heading {
     font-size: 16px;
     font-weight: normal;
@@ -148,7 +167,7 @@ body {
 }
 
 .main__section__card__container__container-menu__item__heading__underline {
-    border-bottom: 2px solid $lightGreen;
+    border-bottom: 2px solid $tertiary;
     padding-bottom: 5px;
 }
 
@@ -194,7 +213,7 @@ body {
 
 .main__section__card__container__container-menu__item__container__container-icon-validation {
     width: 0%;
-    background-color: $lightGreen;
+    background-color: $tertiary;
     height: 60px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -206,7 +225,7 @@ body {
 
 .main__section__card__container__container-menu__item__container__container-icon-validation__disk {
     background-color: $white;
-    color: $lightGreen;
+    color: $tertiary;
     clip-path: circle(40%);
     padding: 5px;
     display: flex;
@@ -256,7 +275,7 @@ body {
 
 .main__section__card__container__container-button__button {
     border-radius: 30px;
-    background-image: linear-gradient($pink, $purple);
+    background-image: linear-gradient($secondary, $primary);
     color: $white;
     box-shadow: 1px 1px 10px $darkGrey;
     padding: 20px;
