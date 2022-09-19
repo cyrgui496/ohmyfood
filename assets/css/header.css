@@ -1,10 +1,14 @@
 /* header */ /* color */
+/* three primary colors */
+/* others colors */
 /* font */
 .header {
   display: flex;
   justify-content: space-around;
   align-items: center;
   padding: 10px;
+  box-shadow: 2px 2px 2px #cfcfcf;
+  margin-bottom: 2px;
 }
 
 .logo__header {

@@ -1,7 +1,6 @@
 /* color */
-/* pink */
-/* purple */
-/* lightGreen */
+/* three primary colors */
+/* others colors */
 /* font */
 body {
   margin: 0px;
@@ -64,7 +63,7 @@ body {
   text-align: center;
   background-color: #eaeaea;
   padding: 10px;
-  border-top: 1px solid #7e7e7e;
+  box-shadow: -1px -1px -5px #cfcfcf;
 }
 
 .form input[type=search] {
@@ -97,6 +96,8 @@ body {
   box-shadow: 1px 1px 10px #7e7e7e;
   padding: 20px;
   cursor: pointer;
+  width: 200px;
+  text-align: center;
 }
 
 .main__section-presentation__link-button:hover {

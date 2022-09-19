@@ -1,7 +1,6 @@
 /* color */
-/* pink */
-/* purple */
-/* lightGreen */
+/* three primary colors */
+/* others colors */
 /* font */
 body {
   margin: 0px;
@@ -9,6 +8,10 @@ body {
 }
 
 /* section */
+.main {
+  margin-top: -2px;
+}
+
 .main__section__card {
   margin: 0;
 }
