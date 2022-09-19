@@ -64,7 +64,6 @@ body {
     text-align: center;
     background-color: $mediumGrey;
     padding: 10px;
-    border-top: 1px solid $darkGrey;
 }
 
 .form {
@@ -99,6 +98,8 @@ body {
     box-shadow: 1px 1px 10px $darkGrey;
     padding: 20px;
     cursor: pointer;
+    width: 200px;
+    text-align: center;
 }
 
 .main__section-presentation__link-button:hover {
