@@ -63,7 +63,7 @@ body {
   text-align: center;
   background-color: #eaeaea;
   padding: 10px;
-  box-shadow: -1px -1px -5px #cfcfcf;
+  box-shadow: -1px -1px 2px #cfcfcf;
 }
 
 .form input[type=search] {
